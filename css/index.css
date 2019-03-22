@@ -3,29 +3,39 @@ body{
 	
 }
 #sechead{
-	background:linear-gradient(40deg,#589159,#5686d8);
+	/*background:linear-gradient(40deg,#589159,#5686d8);*/
+	background:linear-gradient(40deg,#595555,#3a3636);
 	color:#08ff00;
 	min-width:100%;
 }
 #ques{
 	text-align:right;
-	color:#08ff00;
+	/*color:#08ff00;*/
+	color:white;
 }
 #phone a{
-	color:#08ff00;
+	/*color:#08ff00;*/
+	color:white;
+
 }
 #mail a{
 	text-align:left;
-	color:#08ff00;
+	/*color:#08ff00;*/
+	color:white;
+
 }
 #social ul li{
 	padding:0px;
-	border:3px solid yellow;
+	/*border:3px solid yellow;*/
+	border:3px solid #444040;
+
 }
 
 #social ul li a{
 	background-color:black;
-	color:#08ff00;
+	/*color:#08ff00;*/
+	color:white;
+
 
 }
 #upper1{
@@ -34,12 +44,15 @@ body{
 #nav1{
 	margin-top:20px;
 	padding-left:162px;
-	background:linear-gradient(#3c603c,#589159);
+	/*background:linear-gradient(#3c603c,#589159);*/
+	    background: linear-gradient(#ffa809,#ff8100);
 	margin-top:20px;
 	border:0px;
+
 }
 #new{
 	padding-left:0px;
+
 	
 
 }
