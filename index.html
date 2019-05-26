@@ -1,19 +1,19 @@
-	<!doctype html>
+	<!DOCTYPE html>
 	<html>
 		<head>
 			<meta charset="UTF-8">
 			<link rel="icon" href="images/l2.jpeg">
 			<link rel="stylesheet" href="assets/css/bootstrap.css">
 			<link rel="stylesheet" href="css/index.css">
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/bootstrap.js"></script>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/css/swiper.css">
 			<link rel="stylesheet" href="assets/css/font-awesome.css">
-			
-
+		
+			<!-- <script src="assets/js/jquery.min.js"></script> -->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.1.0/js/swiper.js"></script>
+			<script src="assets/js/swiper.js"></script>
+			<script src="assets/js/bootstrap.js"></script>
 			<title>Educare</title>
-			
-
-
 		</head>
 		<body>
 			<header>
@@ -90,12 +90,81 @@
 				</section>
 
 			</header>
-			
-			<section >
+			<section class="new_caro">
+								<!-- Carousel -->
+				<div id="myCarousel" class="carousel slide">
+
+				  <!-- Menu -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				    <li data-target="#myCarousel" data-slide-to="1"></li>
+				    <li data-target="#myCarousel" data-slide-to="2"></li>
+				  </ol>
+				    
+				  <!-- Items -->
+				  <div class="carousel-inner">
+				      
+				      <!-- Item 1 -->
+				    <div class="item active">
+				        <img src="images/educare4.png"/>
+				    <!--   <div class="container">
+				        <div class="carousel-caption">
+				          <h1>Bootstrap 3 Carousel Layout</h1>
+				          <p>This is an example layout with carousel that uses the Bootstrap 3 styles.</p>
+				          <p><a class="btn btn-lg btn-primary" href="http://getbootstrap.com">Learn More</a>
+				        </p></div>
+				      </div> -->
+				    </div>
+				      
+				      <!-- Item 2 -->
+				    <div class="item">
+				        <img src="images/educare1.jpg"/>
+				      <!-- <div class="container">
+				        <div class="carousel-caption">
+				          <h1>Changes to the Grid</h1>
+				          <p>Bootstrap 3 still features a 12-column grid, but many of the CSS class names have completely changed.</p>
+				          <p><a class="btn btn-large btn-primary" href="#">Learn more</a></p>
+				        </div>
+				      </div> -->
+				    </div>
+				      
+				      <!-- Item 3 -->
+				    <div class="item">
+				        <img src="images/educare.jpg"/>
+				    <!--   <div class="container">
+				        <div class="carousel-caption">
+				          <h1>Percentage-based sizing</h1>
+				          <p>With "mobile-first" there is now only one percentage-based grid.</p>
+				          <p><a class="btn btn-large btn-primary" href="#">Browse gallery</a></p>
+				        </div>
+				      </div> -->
+				    </div>
+				  </div>
+				  
+				  <!-- Controls -->
+				  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				    <span class="icon-prev"></span>
+				  </a>
+				  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+				    <span class="icon-next"></span>
+				  </a>  
+				  
+				  <div id="carouselButtons">
+				      <button id="playButton" type="button" class="btn btn-default btn-xs">
+				          <span class="glyphicon glyphicon-play"></span>
+				       </button>
+				      <button id="pauseButton" type="button" class="btn btn-default btn-xs">
+				          <span class="glyphicon glyphicon-pause"></span>
+				      </button>
+				  </div>
+				</div>
+			</section>
+<!-- 			<section >
 				<figure>
 		<a href="index.html"><img src="images/educare1.jpg"  style="padding-left:2px;height:999px;width:100%;"></a>
 				</figure>
-			</section>
+			</section> -->
+			
 			<section>
 				<div class="container-fluid">
 					<div class="row">
@@ -112,18 +181,16 @@
 							</div>
 							</div>
 							
-								<hr>
-								<div class="row" >
-									<div class="col-sm-2" id="welcome1">
-								<figure style="float:left;" >
-									
-									<img src="images/direct.png" height="120px" width="170px" id="dirimg">
-								
-								</figure>
-							</div>
+							<hr>
+							<div class="row" >
+								<div class="col-sm-2" id="welcome1">
+									<figure style="float:left;" >
+										<img src="images/direct.png" height="120px" width="170px" id="dirimg">
+									</figure>
+								</div>
 							<div class="col-sm-1"></div>
 							<div class="col-sm-8">
-								<aside style=" font-size:17px;" id="dirtext"><strong style="color:#f48042;">"EDUCARE ACADEMY is not just another coaching institute.We believe in teamwork"</strong> Our highly qualified faculties work very hard on every aspect of preparation and provide right direction to lead students on the path of success. At EDUCARE Academy, our sole motto is to provide best of qualitative and creative education . We promise to you that we will leave no stone unturned to make you Successful.Organization believes exploring Innovative way to make Education easier than it was traditionally being taught or learned. Institution has recognized span of IIT education rapidly booming in India.Educare Academy in very short of time it touched the height, because of giving the techniques of how to be adept in acquiring Education in terms of IT and Language Proficiency. Intuition is formerly known for giving Quality base Education for Aspiring Students. Our Students are top achievers in Mathematics, in Board EXAM of C.B.S.E.& I.C.S.E(12th,10th board exams & 11th).We have also developed software and study stuffs to make it very easier.</p>
+								<aside style="font-size:17px;" id="dirtext"><strong style="color:#f48042;">"EDUCARE ACADEMY is not just another coaching institute. We believe in teamwork."</strong> Our highly qualified faculties work very hard on every aspect of preparation and provide right direction to lead students on the path of success. At EDUCARE Academy, our sole motto is to provide best of qualitative and creative education . We promise to you that we will leave no stone unturned to make you Successful.Organization believes exploring Innovative way to make Education easier than it was traditionally being taught or learned. Institution has recognized span of IIT education rapidly booming in India.Educare Academy in very short of time it touched the height, because of giving the techniques of how to be adept in acquiring Education in terms of IT and Language Proficiency. Intuition is formerly known for giving Quality base Education for Aspiring Students. Our Students are top achievers in Mathematics, in Board EXAM of C.B.S.E.& I.C.S.E(12th,10th board exams & 11th).We have also developed software and study stuffs to make it very easier.</p>
 								</aside>
 							</div>
 						</div>
@@ -136,7 +203,7 @@
 			</section>
 
 
-			<section>
+			<!-- <section>
 				<div class="container-fluid">
 					<div class="row" id="rowlatest">
 						<div class="col-sm-12" id="secdownimg">
@@ -208,7 +275,7 @@
 						
 					</div>
 				</div>
-			</section>
+			</section> -->
 
 
 
